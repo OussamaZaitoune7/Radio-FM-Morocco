@@ -1,0 +1,130 @@
+
+::selection{
+background-color: #D3DD18;
+color: #FE7A15;
+
+}
+
+article{
+    text-align: center;
+}
+#player_buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#player_buttons img{
+    margin: 0 15px;
+    float: left;
+    width: 45px;
+    height: 45px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background-image: linear-gradient(to right, red, blue);
+    margin: 0px;
+  }
+input[type=range]::-webkit-slider-thumb {  
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: yellowgreen;
+    -webkit-appearance: none;
+}
+#colors{
+    margin-top:15px;
+}
+#colors button{
+    margin-top: 12px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 0px solid white;
+}
+#color-1{
+   
+    background-image: linear-gradient(to right, #43978D, #F9E07F);
+}
+#color-2{
+    background-image:linear-gradient(to right, #CCABD8, #E4C787);
+}
+#color-3{
+    background-image:linear-gradient(to right, #A7D676, #85CBCC);
+}
+#color-4{
+    background-image: linear-gradient(to right, #3C4CAD, #F9C449);
+}
+
+footer{
+    height: 90px;
+    background: white;
+}
+#headerone{
+background: #eee;
+}
+#city{
+      
+    
+         animation-name: city;
+         animation-duration: 20s;
+         animation-delay: 3s;
+         animation-iteration-count: infinite;
+         animation-direction: normal;
+         animation-timing-function: ease
+         
+}
+@keyframes city{
+
+0% {
+            color: #A7D676;
+         }
+         10% {
+            color: #85CBCC;
+         }
+         20% {
+            color: #CCABD8;
+           
+         }
+         30% {
+         color: #E4C787;
+         
+         }
+         40% {
+         color: #43978D;
+         
+         }
+         50% {
+         color: #F9E07F;
+         
+         }
+         60% {
+         color: red;
+         
+         }70% {
+         color: blue;
+         
+         }
+         80% {
+            color: yellowgreen;
+         }
+         90% {
+         color: orange;
+         
+         }
+         100% {
+            color: purple;
+         }
+}
+p1{
+font-family: fantasy;
+animation-name: city;
+         animation-duration: 5s;
+         animation-delay: 1s;
+         animation-iteration-count: infinite;
+         animation-direction: normal;
+         animation-timing-function: ease
+         
+}
