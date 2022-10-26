@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Radio Morocco</title>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/audio_player.css">
+    <link rel="stylesheet" href="css/header_nav.css">
+    <link rel="stylesheet" href="css/article.css">
+</head>
+<body>
+<style type="text/css">
+*{
+padding:0px;
+margin:0px;
+}
+#audio_file{
+padding:0px;
+margin:0px;
+}
+</style>
+    <div id="audio_player">
+        <main>
+            <header id="header">
+                  
+                <nav>
+                    <img src="" alt="" id="logo">
+                    <h2 id="siteName" style="font-family: fantasy; color:purple;">Radio <span id="city">Morocco</span></h2>
+                    <p id="radio-title" style="color: yellow; font-weight: bold;">اسم الإذاعة</p>
+                </nav>
+            </header>
+
+ <div id="headerone">
+            <article id="player_buttons">
+                <img src="img/back.png" alt="" id="back">
+                <img src="img/play.png" alt="" id="play">
+                <img src="img/next.png" alt="" id="next">
+            </article>
+
+            <article>
+                <!--<video src="" id="audio_file"></video>-->
+                <audio src="" id="audio_file"></audio>
+                
+                <h2>الصوت</h2>
+                <input id="volume" type="range" value="50" min="0" max="100" id="range">  
+                <h2>السرعة</h2>
+                <input id="speed" type="range" value="100" min="0" max="200" id="range">         
+            </article>
+
+            
+            <article id="colors">
+            <br>
+           
+           <fieldset class="feildset" >
+           <legend class="legend" >colors</legend>
+           
+            <div class="btns" >
+                    <button id="color-1"></button>
+                    <button id="color-2"></button>
+                    <button id="color-3"></button>
+                    <button id="color-4"></button>
+                   <button id="color-5"></button>
+                   <button id="color-6"></button>
+                   <button id="color-7"></button>
+                   <button id="color-8"></button>
+                   
+             </div>
+                   
+                   </fieldset>
+           </article>
+           
+           <br>
+           <br>
+           <br>
+           </div>
+           <footer id="footer">
+
+           </footer>
+        </main>
+    </div>
+    <script src="scripts/resize.js"></script>
+    <script src="scripts/volume.js"></script>
+    <script src="scripts/speedVolume.js"></script>
+    <script src="scripts/colors.js"></script>
+    <script src="scripts/player_buttons.js"></script>
+</body>
+</html>
